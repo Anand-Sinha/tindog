@@ -109,16 +109,6 @@ color: #ef8172;
 #pricing .btn{
   width: 100%;
 }
-@media (max-width: 991px) {
-  .phone{
-    position: static;
-    transform: rotate(0deg);
-    margin-top: 10%;
-}
-  #title{
-    text-align: center;
-  }
-}
 #cta{
   text-align: center;
   background-color: #ff4c68;
@@ -163,4 +153,36 @@ color: #ef8172;
 }
 .ftrt:hover{
   color: silver;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 10%;
+  }
+  #title{
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 1% 5%;
+  }
+}
+@media (max-width: 768px){
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 10%;
+  }
+  #title{
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 1% 2%;
+  }
+  #features .row{
+    padding: 10% 2%;
+  }
+  #testimonials{
+    padding: 10% 1%;
+  }
 }
