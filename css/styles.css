@@ -154,6 +154,18 @@ color: #ef8172;
 .ftrt:hover{
   color: silver;
 }
+@media (max-width: 1025px) and (min-width: 992px) {
+  .phone{
+    transform: rotate(0);
+    position: relative;
+    top: 20px;
+    left:30px;
+    transform: scale(0.8);
+  }
+ .carousel-item{
+   height: 750px;
+ }
+}
 @media (max-width: 991px) and (min-width: 768px) {
   .phone{
     position: static;
@@ -166,23 +178,70 @@ color: #ef8172;
   .container-fluid{
     padding: 1% 5%;
   }
+  #press{
+    padding-top: 10px;
+  }
+  #features h3,#features p{
+    transform: scale(1.5);
+    width: 30%;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .nav-link{
+    text-align: right;
+  }
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   .phone{
     position: static;
     transform: rotate(0deg);
-    margin-top: 10%;
+    margin: 10% auto;
+    width: 80%;
   }
   #title{
     text-align: center;
   }
+  h1{
+    font-size: 3rem;
+    padding-bottom: 30px;
+    position: relative;
+    top: 0;
+  }
+#features p{
+  width: 60%;
+  margin: auto;
+}
   .container-fluid{
     padding: 1% 2%;
+    width: 90%;
   }
   #features .row{
     padding: 10% 2%;
   }
   #testimonials{
     padding: 10% 1%;
+    height: 420px;
   }
+  .nav-link{
+    text-align: right;
+  }
+#testimonials h2{
+  font-size: 30px;
+}
+.carousel-control-prev, .carousel-control-next{
+  visibility: hidden;
+}
+#pricing{
+  padding: 0px;
+}
+#pricing h2, #pricing p{
+  width: 80%;
+  margin: 10px auto;
+}
+#cta{
+  margin-top: 20px;
+}
+#cta h3{
+  font-size: 40px;
+}
 }
