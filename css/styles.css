@@ -1,0 +1,166 @@
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  margin: 10% 0;
+  position: relative;
+  top: 50px;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.phone{
+  transform: rotate(25deg);
+  position: relative;
+  top: 30%;
+  left: 30%;
+  height: 90%;
+
+}
+.btn{
+  margin: 3% 1%;
+  width: 12rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu",sans-serif;
+  font-size: 3rem;
+}
+.navbar{
+  margin: 0;
+  padding-left: 0;
+}
+.navbar-item{
+  font-family: "Montserrat",sans-serif;;
+  font-weight: 200;
+  padding: 0 20px;
+    filter: drop-shadow(5px 5px 4px black);
+}
+
+#features{
+  position: relative;
+  text-align: center;
+}
+#features h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#features p{
+  color: #8f8f8f;
+}
+#features .fas{
+font-size: 70px;
+margin: 10% 0 15px;
+color: #ef8172;
+}
+#features .fas:hover{
+  color: #ff4c68;
+}
+#features .row{
+  background-color: white;
+  padding: 7% 15%;
+  margin-right: 0;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+  }
+#testimonials h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 7% 15% 0;
+  padding: 0;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 5% 5px;
+  padding: 0;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 0 3%;
+}
+.prc{
+  padding: 3% 2%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#pricing .row{
+  margin: 0 10%;
+}
+#pricing .btn{
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 10%;
+}
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10%;
+}
+#cta h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 70px;
+  padding-bottom: 40px;
+}
+#footer{
+  text-align: center;
+  padding: 7%;
+  background-color: #fff;
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-envelope {
+  padding: 20px;
+  font-size: 25px;
+}
+.ftrt{
+  color: #8f8f8f;
+  font-size: 17px;
+  font-weight: 500;
+}
+.fa-twitter:hover{
+  color: #00acee;
+  transform: scale(1.5);
+}
+.fa-facebook-f:hover{
+  color: #3b5998;
+  transform: scale(1.5);
+}
+.fa-instagram:hover{
+  color: #bc2a8d;
+  transform: scale(1.5);
+}
+.fa-envelope:hover{
+  color: #ff4c68;
+  transform: scale(1.5);
+}
+.ftrt:hover{
+  color: silver;
+}
